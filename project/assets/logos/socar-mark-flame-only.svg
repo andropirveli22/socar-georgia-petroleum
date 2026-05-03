@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" width="80" height="96" role="img" aria-label="SOCAR flame">
+  <g transform="translate(8,10)">
+    <path d="M30,0 C30,16 14,28 14,46 C14,62 22,76 36,76 C28,68 26,58 30,48 C34,38 38,28 30,0 Z" fill="#0099D8"></path>
+    <path d="M44,0 C44,16 28,28 28,46 C28,62 36,76 50,76 C42,68 40,58 44,48 C48,38 52,28 44,0 Z" fill="#00A551"></path>
+    <path d="M58,0 C58,16 42,28 42,46 C42,62 50,76 64,76 C56,68 54,58 58,48 C62,38 66,28 58,0 Z" fill="#E2231A"></path>
+  </g>
+</svg>

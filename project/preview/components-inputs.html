@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Form Inputs</title><link rel="stylesheet" href="_card.css">
+<style>
+.field { display:flex; flex-direction:column; gap:6px; flex:1; }
+.field label { font-family:Inter,sans-serif; font-size:12px; font-weight:600; color:#0A0A0A; }
+.field input, .field select { font-family:Inter,sans-serif; font-size:14px; padding:10px 12px; border:1px solid #CACDD1; border-radius:4px; background:#fff; color:#0A0A0A; box-shadow:inset 0 1px 2px rgba(10,10,10,.06); }
+.field input:focus, .field select:focus { outline:none; border-color:#0A0A0A; box-shadow:0 0 0 3px rgba(226,35,26,.15); }
+.field .hint { font-size:11px; color:#6B7177; }
+.field .err { font-size:11px; color:#E2231A; }
+.field-err input { border-color:#E2231A; }
+</style>
+</head>
+<body><div class="card">
+<p class="label">Inputs</p>
+<div style="display:flex;gap:14px">
+  <div class="field"><label>Email</label><input value="contact@example.com"><div class="hint">We'll send fuel-card statements here.</div></div>
+  <div class="field"><label>Fuel type</label><select><option>Euro 5 Diesel</option><option>Premium 95</option><option>Super 98</option></select></div>
+</div>
+<div style="display:flex;gap:14px;margin-top:10px">
+  <div class="field"><label>Card number</label><input value="•••• •••• •••• 4827" style="font-family:var(--font-mono);letter-spacing:1px"></div>
+  <div class="field field-err"><label>Liters</label><input value="1,250"><div class="err">Exceeds daily limit</div></div>
+</div>
+</div></body></html>

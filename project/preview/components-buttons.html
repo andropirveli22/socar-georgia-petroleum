@@ -1,0 +1,29 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Buttons</title><link rel="stylesheet" href="_card.css">
+<style>
+.btn { font-family:Inter,sans-serif; font-weight:600; font-size:14px; border-radius:4px; padding:10px 18px; border:1px solid transparent; cursor:pointer; transition:all 200ms cubic-bezier(.2,.6,.2,1); display:inline-flex; align-items:center; gap:8px;}
+.btn-primary { background:#E2231A; color:#fff; }
+.btn-primary:hover { background:#B81C14; }
+.btn-secondary { background:#fff; color:#0A0A0A; border-color:#0A0A0A; }
+.btn-secondary:hover { background:#F5F6F7; }
+.btn-ghost { background:transparent; color:#0A0A0A; }
+.btn-ghost:hover { background:#F5F6F7; }
+.btn-link { background:transparent; color:#0A0A0A; border-bottom:1px solid #0A0A0A; border-radius:0; padding:2px 0;}
+</style>
+</head>
+<body><div class="card">
+<p class="label">Buttons</p>
+<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+  <button class="btn btn-primary">Find a Station</button>
+  <button class="btn btn-secondary">Open an Account</button>
+  <button class="btn btn-ghost">Learn More</button>
+  <button class="btn btn-link">View report →</button>
+</div>
+<p class="label" style="margin-top:8px">States</p>
+<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+  <button class="btn btn-primary">Default</button>
+  <button class="btn btn-primary" style="background:#B81C14">Hover</button>
+  <button class="btn btn-primary" style="background:#951610;transform:scale(.98)">Pressed</button>
+  <button class="btn btn-primary" style="background:#CACDD1;color:#fff;cursor:not-allowed">Disabled</button>
+</div>
+</div></body></html>
